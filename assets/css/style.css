@@ -23,7 +23,9 @@ h1,h2,h3,h4,h5,h6 {
 .w-90{
     width: 90% !important;
 }
-
+.w-80{
+    width: 80% !important;
+}
 .prim-button{
     background-color: var(--theme-color);
     border: 0;
@@ -80,4 +82,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .sec-color{
     color: #434343;
+}
+
+.spacey{
+    height: 40px;
 }
