@@ -95,9 +95,39 @@ h1,h2,h3,h4,h5,h6 {
 .btn-sml{
     width: 160px;
 }
-@media only screen and (max-width: 1000px) {
-    .display-1{
-        font-size: 4rem !important;
-    }
 
+
+
+@media only screen and (max-width: 1025px) {
+    
+    .p-5{
+        padding: 1.5rem !important;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .display-2{
+        font-size: 2.5rem;
+    }
+    .display-3{
+        font-size: 2.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .container{
+        max-width: 90%;
+    }
+    .btn-w{
+        width: 180px;
+    }
+    .flex-sml{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    
 }
