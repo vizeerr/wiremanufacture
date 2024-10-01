@@ -8,6 +8,11 @@ body{
     --theme-color:#ff4f00;
 }
 
+.slick-slide{
+    display: flex !important;
+    justify-content: center;
+}
+
 
 .font-primary{
     font-family: "Inter", sans-serif;
@@ -113,6 +118,8 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 2.5rem;
     }
     
+    
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -123,11 +130,40 @@ h1,h2,h3,h4,h5,h6 {
     .btn-w{
         width: 180px;
     }
-    .flex-sml{
-        flex-wrap: wrap;
-        justify-content: center;
+    .px-4{
+        padding: 0;
+    }
+   
+}
+
+@media only screen and (max-width: 426px) {
+    .p-5{
+        padding: 0.8rem !important;
+    }
+    .btn-w{
+        width: 140px;
+        font-size: 14px !important;
+    }
+    .display-2, .display-3{
+        font-size: 2rem !important;
+    }
+    .fs-5,.card-text {
+        font-size: 1rem !important;
+    }
+    .display-1{
+        font-size: 3rem !important;
+    }
+    .fs-4{
+        font-size: 1.1rem !important;
+    }
+    .rounder{
+        border-radius: 15px !important;
     }
     
-    
-    
+    .px-5{
+        padding: 0 !important;
+    }
+    .navbar .w-95{
+        width: 100% !important;
+    }
 }
