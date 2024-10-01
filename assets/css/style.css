@@ -117,6 +117,9 @@ h1,h2,h3,h4,h5,h6 {
     .display-3{
         font-size: 2.5rem;
     }
+    .spacey{
+        height: 10px;
+    }
     
     
     
@@ -133,6 +136,10 @@ h1,h2,h3,h4,h5,h6 {
     .px-4{
         padding: 0;
     }
+    .spacey{
+        height: 5px;
+    }
+    
    
 }
 
@@ -166,4 +173,8 @@ h1,h2,h3,h4,h5,h6 {
     .navbar .w-95{
         width: 100% !important;
     }
+    .spacey{
+        height: 0px;
+    }
+    
 }
