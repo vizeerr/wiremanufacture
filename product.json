@@ -3,39 +3,18 @@
     "title":"multi strand wire",
     "desc":""
 },{
-    "src":"single-strand-wire",
-    "title":"Single strand wire",
-    "desc":""
-},{
     "src":"multi-core-wire",
     "title":"multi core wire",
     "desc":""
-},{
+},
+{
     "src":"alumnium-two-core-wire",
     "title":"alumnium two core wire",
     "desc":""
-},{
-    "src":"alumnium-single-core-wire",
-    "title":"alumnium single core wire",
-    "desc":""
-},{
-    "src":"sumersible-wire",
-    "title":"alumnium two core wire",
-    "desc":""
 },
 {
-    "src":"two-core-lead",
-    "title":"two core lead",
-    "desc":""
-},
-{
-    "src":"three-core-lead",
-    "title":"three core lead",
-    "desc":""
-},
-{
-    "src":"cotton-lead",
-    "title":"cotton lead",
+    "src":"copper-single-core-wire",
+    "title":"copper single core wire",
     "desc":""
 },
 {
@@ -44,8 +23,8 @@
     "desc":""
 },
 {
-    "src":"ab-cable",
-    "title":"AB cable",
+    "src":"aerial-bunched-cable",
+    "title":"aerial bunched cable",
     "desc":""
 },
 {
