@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="/assets/js/script.js"></script>
 </head>
 <body>
     
@@ -31,6 +30,14 @@
                   </li>
                   <li class="nav-item"></li>
                     <a class="nav-link active" aria-current="page" href="/all-products/">All Products</a>
+                  </li>
+                  <li class="nav-item dropdown"  id="allProd" >
+                    <a class="nav-link dropdown-toggle" href="/all-products/">
+                      Wire & Cables
+                    </a>
+                    <ul class="dropdown-menu" id="allProdDrop">
+                      
+                    </ul>
                   </li>
                   
                   
@@ -110,7 +117,7 @@
                 <h1 class="display-1 fw-bold">Wire Manufacturing <br> and Selling </h1>
                 <p class="fs-4 sec-color">Connecting the Future, One Wire at a Time. Empowering industries with precision-engineered wires, built to last and designed to drive innovation.</p>
                 <div>
-                  <a href="contact-us/">
+                  <a href="/contact-us/">
                     <button class="prim-button fs-18 btn-w mt-3 me-4">Contact Sales</button></a>
                   <button class="sec-button fs-18 btn-w mt-3">View Products</button>
                 </div>
@@ -134,7 +141,7 @@
               <p class="fs-5 sec-color">
                 <b>Shree Krishna Cables</b> , founded in 2007, is a leading manufacturer of high-quality wires and cables. With over a decade of industry experience, the company is certified with ISO 9001:2015 and holds ISI certifications for standards IS 694, IS 1293, and IS 9968 Part 1. These certifications reflect our commitment to quality and adherence to stringent industry regulations. At Shree Krishna Cables, we specialize in producing reliable and durable wire solutions that cater to a wide range of applications, ensuring customer satisfaction through innovation, precision, and performance.
               </p>
-              <button class="prim-button fs-18 mt-4 btn-w">Know More</button>
+              <a href="/about/"><button class="prim-button fs-18 mt-4 btn-w">Know More</button></a>
             </div>
         
             <!-- Image Section -->
@@ -295,7 +302,7 @@
                              110039
                           </p>
                       </div>
-                      <div class="d-flex gap-5 mt-4">
+                      <div class="d-flex flex-wrap gap-5 mt-4">
                           <div>
                               <p class="fw-semibold fs-5 mb-1">Email</p>
                               <p class="fs-16 sec-color">shrikrishnacables@gmail.com </p>
@@ -427,6 +434,44 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
+   <script>
+    $(document).ready(function(){
+    $('.logocrawler').slick({
+        slidesToShow: 6,      
+        slidesToScroll: 1,    
+        autoplay: true,        
+        autoplaySpeed: 1200,   
+        dots: false,            
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1200, // for large devices
+                settings: {
+                    slidesToShow: 5
+                }
+            },
+            {
+                breakpoint: 992, // for medium devices
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 768, // for small devices
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 576, // for extra small devices
+                settings: {
+                    slidesToShow: 1
+                }
+            },
+        ]
+    });
+});
+   </script>
 
     <script>
        

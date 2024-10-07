@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>About Shree Krishna Cables</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -16,29 +16,44 @@
 <body>
     
     <div class="font-primary">
+        <!-- navbar -->
         <nav class="navbar position-sticky py-3 z-3 top-0 w-100 navbar-expand-lg bg-white ">
-            <div class="container-fluid  w-95">
-              <a class="navbar-brand fs-5 fw-bold " href="#">Wire Manufacture</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="container-fluid  w-95">
+            <a class="navbar-brand fs-5 fw-bold " href="#">Shree Krishna Cables</a>
+            
+            <div class="collapse navbar-collapse ms-4 fs-14" id="navbarSupportedContent">
+              <ul class="navbar-nav gap-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/about/">About</a>
+                </li>
+                <li class="nav-item"></li>
+                  <a class="nav-link active" aria-current="page" href="/all-products/">All Products</a>
+                </li>
+                <li class="nav-item dropdown"  id="allProd" >
+                  <a class="nav-link dropdown-toggle" href="/all-products/">
+                    Wire & Cables
+                  </a>
+                  <ul class="dropdown-menu" id="allProdDrop">
+                    
+                  </ul>
+                </li>
+               
+              </ul>
+             
+            </div>
+            
+            <div class="flex">
+              
+              <a href="contact-us/"><button class="prim-button">Contact Sales</button></a>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse ms-4 fs-14" id="navbarSupportedContent">
-                <ul class="navbar-nav gap-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/about/">About</a>
-                  </li>
-                  
-                </ul>
-               
-              </div>
-              <div class="flex">
-                <button class="prim-button">Contact Sales</button>
-              </div>
             </div>
-        </nav>
+          </div>
+      </nav>
 
         <div class="container mx-auto my-5 ">
           <h2 class="display-3 fw-bold">About Us</h2>
@@ -94,6 +109,74 @@
           
         </div>
       </div>
+       <!-- footer -->
+       <footer class="px-5 pt-4 pb-3 mt-5" style="background-color: #fffee6;">
+        <div class="container">
+            <div class="row justify-content-between g-4">
+                
+                <div class="col-12 col-md-3">
+                    <p class="fw-bold">Product</p>
+                    <ul class="list-unstyled sec-color" id="listlink" style="line-height: 1.8em;">
+                        <!-- <li class="">Pricing</li>
+                        <li>Engineering</li>
+                        <li>Marketing</li>
+                        <li>Education</li>
+                        <li>Screen Recorder</li>
+                        <li>Enterprise</li>
+                        <li>Screen Recorder</li>
+                        <li>Chrome Screen Recorder</li> -->
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="fw-bold">Usefull Links</p>
+                    <ul class="list-unstyled sec-color" style="line-height: 1.8em;">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>All Products</li>
+                        <li>Contact Us</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="fw-bold">Contact Us</p>
+                    <ul class="list-unstyled sec-color" style="line-height: 1.8em;">
+                        <li>shrikrishnacables@gmail.com</li>
+                        <li>+91 9810058060</li>
+                        <li>+91 9710058060
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <hr>
+    
+            <div class="mt-4">
+              <div class="container mt-4">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <p class="fw-bold fs-5 mb-0">Shree Krishna Cables</p>
+                    <div class="d-flex justify-content-center pt-3 gap-3 flex-wrap">
+                  
+                        <p class="text-center fw-semibold mb-0">Terms and Conditions</p>
+                        <p class="text-center fw-semibold mb-0">Privacy Policy</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+              <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <p class=" text-center fs-6">©️ Copyright 2024</p>
+                <p class=" text-center fs-6">~ Designed by <a href="https://viveksagar.vercel.app/">Vivek Sagar</a></p>
+              </div>
+          </div>
+            
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+    <script src="/assets/js/script.js"></script>
+
 
         
     </div>
